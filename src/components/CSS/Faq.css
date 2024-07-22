@@ -1,0 +1,413 @@
+.ms-faq{
+    position: relative;
+    padding: 40px 0;
+    padding-top: 0;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .ms-faq {
+        padding: 70px 0;
+    }
+}
+.ms-faq__divider {
+    top: 8%;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+@media (min-width: 1200px) {
+    .ms-faq__divider {
+        top: 0;
+    }
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.w-100{
+    width: 100%;
+}
+.container-faq{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-faq{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-faq{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-faq{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-faq{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-faq{
+        max-width: 1320px;
+    }
+}
+.row-faq{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.row-faq>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+    .col-faq {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .col-faq {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .col-faq {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+.justify-content-center {
+    justify-content: center;
+}
+.sub-col-faq {
+    flex: 0 0 auto;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .sub-col-faq {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+}
+.ms-faq__title {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+    line-height: 33px;
+    margin-top: 75px;
+}
+@media (min-width: 768px) {
+    .ms-faq__title {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-faq__title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+.ms-faq__heading {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 700;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+}
+@media (min-width: 1200px) {
+    .ms-faq__heading {
+        font-size: 60px;
+        line-height: 90px;
+    }
+}
+.ms-faq__form {
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0 8px 18px hsla(207, 9%, 58%, .157);
+    border: 1px solid #e6e6e6;
+    border-radius: 60px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    padding-right: .25rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+}
+.ms-faq__form-input {
+    border: none;
+    padding: 15px 10px;
+    width: 100%;
+    font-size: 18px;
+    font-family:"Nunito", sans-serif;
+    color: #000607;
+    height: 50%
+}
+.ext{
+    justify-content: center;
+    margin-top: 2rem;
+}
+@media (min-width: 576px) {
+    .ext {
+        margin-top: 3.75rem;
+    }
+}
+@media (min-width: 768px) {
+    .ext {
+        margin-top: 4.25rem;
+    }
+}
+.sub1-col-faq{
+    flex: 0 0 auto;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .sub1-col-faq {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+.ms-section__title-faq {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    padding-bottom: 0;
+    margin-top: 1.75rem;
+}
+@media (min-width: 768px) {
+    .ms-section__title-faq {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (min-width: 992px) {
+    .ms-section__title-faq {
+        margin-top: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-section__title-faq {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+.ms-section__title-faq--highligh {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.sub2-col-faq {
+    flex: 0 0 auto;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .sub2-col-faq {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+}
+@media (min-width: 992px) {
+    .mt-lg-n4 {
+        margin-top: -1.5rem;
+    }
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+.ms-faq .accordion-header button {
+    color: #3a3c3c;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    padding-left: 43px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+    .ms-faq .accordion-header button {
+        font-size: 18px;
+    }
+}
+.ms-faq .accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: unset;
+    border: none !important;
+    border-bottom: 1px solid #d3d4d5;
+    padding: var(--size-3) 0;
+}
+@media (min-width: 992px) {
+    .ms-faq .accordion-item {
+        padding: var(--size-5) 0;
+    }
+}
+.ms-faq .accordion-button:not(.collapsed) {
+    background: none;
+    box-shadow: none;
+    border-bottom: none;
+}
+.ms-faq .accordion-button:not(.collapsed) {
+    color: #3a3c3c;
+}
+.ms-faq .accordion-button:not(.collapsed):after {
+    width: auto;
+    height: auto;
+    background-image: none;
+    content: "-";
+    font-size: 48px;
+    transform: translate(-5px, -4px);
+    transform: rotate(0deg);
+    position: absolute;
+    left: 0;
+}
+.ms-faq .accordion-button:after {
+    width: auto;
+    height: auto;
+    content: "+";
+    font-size: 40px;
+    background-image: none;
+    font-weight: 100;
+    color: #5fb858;
+    transform: translateY(-4px);
+    position: absolute;
+    left: 0;
+}
+.accordion-button:not(.collapsed):after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+.accordion-button:after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: v1.25rem;
+    transition: transform 0.2s ease-in-out;
+}
+.ms-faq .accordion-body {
+    position: relative;
+    padding-left: 43px;
+    color: #afb7b8;
+}
+.ms-faq .accordion-body:before {
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 1.5px;
+    left: 13px;
+    bottom: 15%;
+    background-color: #5fb858;
+}
+@media (min-width: 992px) {
+    .ms-faq .accordion-item {
+        padding: 1.25rem 0;
+    }
+}
+.view-all-faq{
+    margin-top: 1.75rem;
+    margin-bottom: 3rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+@media (min-width: 576px) {
+    .view-all-faq {
+        text-align: right;
+    }
+}
+@media (min-width: 768px) {
+    .view-all-faq {
+        padding-right: 2.75rem;
+    }
+}
+@media (min-width: 992px) {
+    .view-all-faq {
+        margin-top: 0;
+    }
+}
+.bg-green-primary{
+    background-color: #5fb858;
+}
+.ms-faq__cta{
+    background-color: #f6feff;
+    border: 1px solid #b7e3e9;
+    border-radius: 14px;
+    padding: 1.75rem;
+}
+@media (min-width: 768px) {
+    .ms-faq__cta {
+        margin-top: 3rem;
+    }
+}
+.align-items-center{
+    align-items: center;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+}
+.ms-faq-p-text{
+    font-size: 1.25rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    line-height: 1.75rem;
+}
+@media (min-width: 992px) {
+    .ms-faq-p-text {
+        line-height: 3rem;
+        text-align: left;
+        font-size: 2rem;
+    }
+}
+a{
+    text-decoration: none;
+}

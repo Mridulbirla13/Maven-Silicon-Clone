@@ -1,0 +1,412 @@
+.ms-section-blog{
+    --herobg-section-h: 44.375rem;
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+    padding: 40px 0;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .ms-section-blog {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        padding: 70px 0;
+    }
+}
+@media (min-width: 992px) {
+    .ms-section-blog {
+        --curve-radius: 262px;
+    }
+}
+.container-blog{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-blog{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-blog{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-blog{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-blog{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-blog{
+        max-width: 1320px;
+    }
+}
+.row-blog{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.-j{
+    justify-content: center;
+}
+.row-blog>* {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.col-blog{
+    flex: 0 0 auto;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .col-blog {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.ms-section-title-blog{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+    .ms-section-title-blog {
+        margin-bottom: 3.5rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-section-title-blog {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+.font-blog{
+    font-weight: 700;
+}
+.ms-latestPostCard__link{
+    width: 100%;
+    height: 100%;
+}
+.ms-latestPostCard{
+    border-radius: 1rem;
+    min-height: 250px;
+    margin-bottom: 1rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard {
+        margin-bottom: 0;
+        min-height: 400px;
+    }
+}
+.ms-latestPostCard:before {
+    content: "";
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, #000 0, #000 32.5%, transparent);
+}
+.ms-latestPostCard__content{
+    z-index: 4;
+}
+.ms-latestPostCard__category-big{
+    display: inline-block;
+    padding: 0.25rem;
+    color: rgba(255,255,255,1);
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #a5a6aa;
+}
+.ms-latestPostCard__title{
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: rgba(255,255,255,1);
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+    line-height: 1.2;
+}
+@media screen and (min-width: 576px) {
+    .ms-latestPostCard__title {
+        font-size: 1.75rem;
+    }
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__title {
+        font-size: 2.25rem;
+    }
+}
+.ms-latestPostCard__author{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author {
+        flex-direction: row;
+    }
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author {
+        align-items: center;
+    }
+}
+.d-flex-blog{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+@media (min-width: 768px) {
+    .d-flex-blog{
+        margin-bottom: 0;
+    }
+}
+.ms-latestPostCard__author-avatar{
+    min-height: 37px;
+    min-width: 37px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+}
+.ms-latestPostCard__author-name-big{
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-size: 0.75rem;
+    color: #a5a6aa;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author-name-big {
+        font-size: 18px;
+    }
+}
+.ms-latestPostCard__author-date{
+    display: flex;
+    /* margin-bottom: 0.25rem; */
+}
+.ms-latestPostCard__author-date-icon{
+    margin-right: 0.5rem;
+}
+.img-fluid-mb-1{
+    height: auto;
+    max-width: 100%;
+    /* margin-bottom: 0.25rem; */
+}
+.ms-latestPostCard__author-date-text-big{
+    color: #a5a6aa;
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: "Nunito", sans-serif;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author-date-text-big {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+.-blog-right{
+    margin-top: 1.75rem;
+}
+@media (min-width: 992px) {
+    .-blog-right {
+        margin-top: 0;
+    }
+}
+.ms-postCard__link{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.ms-postCard{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 576px) {
+    .ms-postCard {
+        flex-direction: row;
+    }
+}
+.ms-postCard__thumbnail {
+    border-radius: 0.75rem;
+    max-height: 200px;
+    height: 200px;
+    max-width: 100%;
+    width: 100%;
+    background-position: revert;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+@media (min-width: 576px) {
+    .ms-postCard__thumbnail {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .ms-postCard__thumbnail {
+        width: 181px;
+        height: 137px;
+    }
+}
+.ms-postCard__thumbnail-img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.75rem;
+    -o-object-position: left;
+    object-position: left;
+}
+.ms-postCard__content{
+    margin-top: 0.5rem;
+}
+@media (min-width: 576px) {
+    .ms-postCard__content {
+        width: 50%;
+        margin-top: 0;
+    }
+}
+.text-dark-blog{
+    width: 75%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color:rgba(33,37,41,1);
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.ms-latestPostCard__author{
+    font-size: 0.75rem;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author {
+        flex-direction: column;
+    }
+}
+@media (min-width: 1400px) {
+    .ms-latestPostCard__author {
+        flex-direction: row;
+    }
+}
+@media (min-width: 1400px) {
+    .ms-latestPostCard__author {
+        align-items: flex-start;
+    }
+}
+@media (min-width: 1400px) {
+    .ms-latestPostCard__author {
+        align-items: center;
+    }
+}
+.hstack {
+    display: flex;
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+}
+.ms-latestPostCard__author-avatar {
+    min-height: 37px;
+    min-width: 37px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: .25rem;
+    display: inline-block;
+}
+.ms-latestPostCard__author-name {
+    color: #a5a6aa;
+    font-size: 10px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.font-bold-color-gray8{
+    font-weight: 700;
+}
+.ms-latestPostCard__author-date{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+    line-height: 0rem;
+}
+@media (min-width: 768px) {
+    .ms-latestPostCard__author-date {
+        margin-top: .5rem;
+    }
+}
+@media (min-width: 1400px) {
+    .ms-latestPostCard__author-date {
+        margin-top: 0;
+    }
+}
+.ms-latestPostCard__author-date-icon{
+    margin-right: 0.25rem;
+    display: inline-block;
+}
+.img-fluid-BLOG{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+.ms-latestPostCard__author-date-text {
+    color: #a5a6aa;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.ms-latestPostCard__category{
+    border: 1px solid #a5a6aa;
+    border-radius: 0.25rem;
+    font-size: 10px;
+    padding: 0.25rem;
+}
+.black-span{
+    color:rgba(33,37,41,1);
+}
+.text-blog{
+    text-align: center;
+    margin-top: 0.5rem;
+}

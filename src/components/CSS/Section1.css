@@ -1,0 +1,397 @@
+.ms-section1 {
+    overflow: hidden;
+    --herobg-section-h: 44.375rem;
+}
+
+@media (min-width: 768px) {
+    .ms-section1 {
+        padding: 70px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .ms-section1 {
+        --curve-radius: 262px;
+    }
+}
+
+.ms-section1 {
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+}
+@media (min-width: 576px) {
+    .container-section1{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-section1{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-section1{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-section1{
+        max-width: 1140px;
+    }
+}
+
+
+
+.container-section1{
+    width: 80%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ms-section_title{
+    color:#000;
+    font-size:2rem;
+    font-weight: 300;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+
+}
+
+@media (min-width: 1200px){
+    .ms-section_title{
+        font-size:3rem;
+        line-height: 60px;
+    }
+}
+@media (min-width: 768px){
+    .ms-section_title{
+        font-size:2.5rem;
+        line-height: 3rem;
+        margin-bottom: 3.75rem;
+    }
+}
+.ms-section_title span{
+    font-weight: 700;
+
+}
+@media (min-width: 768px){
+    .ms-section_title span{
+        display: block;
+    }
+}
+.ms-courses_wrapper{
+    --bs-gutter-x: 1.75rem;
+    --bs-gutter-y: 1.75rem;
+}
+@media (min-width: 1200px){
+    .ms-courses_wrapper{
+        --bs-gutter-x: 5.25rem;
+        --bs-gutter-y: 4.75rem;
+    }
+}
+.container-section1 .rower {
+    margin-top: -4.75rem;
+    margin-right: -2.625rem;
+    margin-left: -2.625rem;
+}
+.ms-courses_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rower .col{
+    position: relative;
+
+}
+@media (min-width: 992px){
+    .rower .col{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+@media (min-width: 768px){
+    .rower .col{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+.rower>* {
+    --bs-gutter-x: 5.25rem;
+    --bs-gutter-y: 4.75rem;
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.rower .col .h-100{
+    height: 100%;
+    position: relative;
+}
+.ms-courses_card-tag:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 3px;
+    background-color: #00535e;
+    left: 1.5px;
+    bottom: -2px;
+    border-radius: 2px;
+    border-bottom: 10px solid transparent;
+    transform: rotate(30deg);
+    z-index:4;
+}
+.ms-courses_card-tag {
+    top: 15px;
+    left: -10px;
+    border-radius: 2px;
+    background: #00535e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .28);
+    position: absolute;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    color: rgba(255,255,255,1);
+    padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+    z-index: 5;
+}
+
+.me-2{
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+.ms-courses_card{
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #00262b;
+    border-bottom-right-radius: 90px;
+    position:relative;
+    height: 100%;
+}
+.ms-courses_card-top{
+    transition: transform 0.5s;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+    transform: scale(1);
+}
+.ms-courses_card-top:hover{
+    transform: scale(1.2);
+}
+@media(min-width: 768px){
+    .ms-courses_card-top{
+        height: 370px;
+    }
+}
+.ms-courses_card-top:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 35%, #00262b);
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    top: 0;
+    z-index: 4;
+}
+.ms-nextfillimg--cover{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    vertical-align: middle;
+}
+.ms-courses_card-bottom {
+    position: relative;
+    z-index: 11;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 8px;
+    padding: 0 0 1rem 1.5rem;
+    border-bottom-right-radius: 90px;
+}
+.ms-card-bottom-item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (min-width: 1200px) {
+    .ms-courses_card-left {
+        width: 50%;
+        margin-right: 20px;
+    }
+}
+
+.ms-courses_card-left {
+    width: 100%;
+}
+.card-left-head{
+    color:white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+}
+@media screen and (min-width: 576px) {
+    .card-left-head {
+        font-size: 2rem;
+    }
+}
+.card-left-sub-head{
+    color: #5fb858;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+
+}
+@media screen and (min-width: 576px) {
+    .card-left-sub-head{
+        font-size: var(--text-md) !important;
+    }
+}
+.font-light{
+    font-weight: 300;
+}
+.mb-3{
+    margin-bottom: 1rem;
+    padding:0;
+    margin-top:0;
+    list-style-type: none;
+
+}
+.ms-card__includes-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+.flex-shrink{
+    flex-shrink: 0;
+}
+span img{
+    vertical-align: middle;
+}
+.ms-courses_card-includes-item-icon{
+    vertical-align: middle;
+}
+.text-m{
+    color: white;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    white-space: nowrap;
+    text-transform: capitalize;
+    margin-left: 1rem;
+
+
+}
+@media (min-width: 992px) {
+    .text-m {
+        font-size: 18px;
+    }
+}
+.ms-courses_card-includes-item{
+    display: flex;
+    align-items: center;
+}
+.ms-courses_card-right{
+    width:100%;
+    margin-bottom: 1.75rem;
+}
+/* @media (min-width: 1200px) {
+    .ms-courses_card-right {
+        width: 48%;
+        margin-top: -1.75rem;
+    }
+} */
+@media (min-width: 768px) {
+    .ms-courses_card-right {
+        margin-bottom: 0;
+    }
+}
+.ms-courses_card-feature{
+    background-color: white;
+    padding:1rem 0 1rem 1.5rem;
+    border-top-left-radius: 44px;
+    border-bottom-left-radius: 44px;
+    height: 60px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media (min-width: 992px) {
+    .ms-courses_card-feature {
+        height: 70px;
+    }
+}
+.ms-courses_card-feature-item{
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.ms-button_primary{
+    height: 50px;
+    border: 0;
+    padding: 5px 5px 5px 12px;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+.ms-button_primary-name{
+    font-weight: 700;
+    color: rgba(255,255,255,1);
+    text-transform: capitalize;
+    padding-right: 1.75rem;
+    margin-right: 1rem;
+}
+.ms-button_primary-arrow{
+    height: 35px;
+    width: 35px;
+    border-radius:50%;
+    background-color: #5fb858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ms-courses_card-caption{
+    color:hsla(0, 0%, 100%, 0.502);
+    font-size: 1.5rem;
+    line-height: 24px;
+    width: 90%;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+}
+@media (min-width: 768px) {
+    .ms-courses_card-caption {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        margin-top: 1.75rem;
+
+    }
+}
+@media (min-width: 1200px) {
+    .ms-courses_card-caption {
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 576px) {
+    .ms-courses_card-caption {
+        font-size: 18px;
+    }
+}

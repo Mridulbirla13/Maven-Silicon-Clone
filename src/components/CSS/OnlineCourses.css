@@ -1,0 +1,306 @@
+.ms-section {
+    height: var(--section-height);
+}
+.ms-section {
+    --herobg-section-h: 44.375rem;
+}
+@media (min-width: 992px) {
+    .ms-section {
+        --curve-radius: 262px;
+    }
+}
+.ms-section {
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+}
+.ms-section {
+    padding: 40px 0;
+    position: relative
+}
+@media (min-width: 768px) {
+    .ms-section {
+        padding: 70px 0;
+    }
+}
+
+.ms-careers__divider{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    width: 100;
+}
+
+.container-oc{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-oc{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-oc{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-oc{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-oc{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-oc{
+        max-width: 1320px;
+    }
+}
+.img-fluids{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.oc-row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.oc-row>* {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+    .oc-col {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .oc-col {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+}
+@media (min-width: 992px) {
+    .oc-col {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+}
+.ms-section__title-oc {
+    color: #000;
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+}
+@media (min-width: 768px) {
+    .ms-section__title-oc {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ms-section__title-oc {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+
+.ms-section__title--highligh{
+    font-weight: 700;
+}
+.ms-careers__card-oc{
+    overflow: hidden;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 40px hsla(207,9%,58%,.161);
+}
+.d-block{
+    display: block;
+}
+.ms-careers__card-oc-thumbnail{
+    height: 280px;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+.ms-nextfillimg--cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.ms-careers__card-oc-content{
+    border-radius: 1.5rem;
+    position: relative;
+    margin-top: -30px;
+    z-index: 10;
+    background-color: #fff;
+    padding: 1.5rem;
+}
+@media (min-width: 768px) {
+    .ms-careers__card-oc-content-rating {
+        font-size: 1rem;
+    }
+}
+.ms-careers__card-oc-content-rating{
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    display: block;
+    color: black;
+}
+.ms-careers__card-oc-content-title{
+    font-size: 18px;
+    height: 60px;
+    color: #183e43;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    line-height: 27px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+@media (min-width: 992px) {
+    .ms-careers__card-oc-content-title {
+        font-size: 1.5rem;
+    }
+}
+.ms-careers__card-oc-content-duration{
+    display: flex;
+    align-items: center;
+}
+.ms-careers__card-oc-content-duration-icon{
+    margin-right: 0.5rem;
+}
+.ms-careers__card-oc-content-duration-text{
+    font-size: 1rem;
+    color: #000;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.ms-careers__card-oc-content-price{
+    background-color: #00262b;
+    width: 50%;
+    position: absolute;
+    top: -19px;
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ms-careers__card-oc-content-price-sum{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    line-height: 22px;
+}
+@media (min-width: 992px) {
+    .ms-careers__card-oc-content-price-sum {
+        font-size: 18px;
+    }
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+  .row-oc{
+    margin-top: 1.75rem;
+    text-align: center;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: calc(-1* var(--bs-gutter-y)); */
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+  }
+  .col-oc{
+    padding-top: 1.75rem;
+  }
+  @media (min-width: 992px) {
+    .col-oc {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-oc {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 576px) {
+    .col-oc {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+  .row-oc>* {
+    /* flex-shrink: 0; */
+    /* width: 100%; */
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.col-oc a{
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s ease;
+}
+.ms-button__primary {
+    height: 50px;
+    border: 0;
+    padding: 5px 5px 5px 21px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.bg-green{
+    background-color: #5fb858;
+}

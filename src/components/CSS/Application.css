@@ -1,0 +1,148 @@
+.ms-section-application{
+    background-color: #e4f4f9;
+    --herobg-section-h: 44.375rem;
+    --curve-radius: 262px;
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+    .ms-section-application {
+        padding: 70px 0;
+    }
+}
+@media (min-width: 992px) {
+    .ms-section-application {
+        --curve-radius: 262px;
+    }
+}
+.ms-section-application{
+    padding-bottom: 0;
+}
+.container-application{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 540.1px;
+}
+@media (min-width: 576px) {
+    .container-application{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-application{
+        max-width: 720px;
+        flex-direction: row
+    }
+}
+@media (min-width: 992px) {
+    .container-application{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-application{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-application{
+        max-width: 1320px;
+    }
+}
+@media (min-width: 768px) {
+    .ms-application-left {
+        width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .ms-application-left {
+        width: 500px;
+    }
+}
+.ms-nextfillimg__span-ap{
+    position: relative;
+}
+.ms-nextfillimg__span-ap span{
+    position: relative;
+}
+.ms-nextfillimg__span-ap span span{
+    position: relative;
+}
+.ms-application__title{
+    color: #322e60;
+    font-size:2rem;
+    font-weight: 600;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    padding-bottom: 0;
+    margin:0;
+}
+@media (min-width: 768px) {
+    .ms-application__title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-application__title {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+.ms-application__tag{
+    line-height: 25px;
+    letter-spacing: 0.26rem;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.ms-application__links{
+    display: flex;
+    margin-top: 1.75rem;
+    margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+    .ms-application__links {
+        margin-top: 3rem;
+    }
+}
+.ms-2{
+    margin-left: 0.5rem;
+}
+.ms-application-right{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .ms-application-right {
+        width: calc(100% - 300px);
+    }
+}
+@media (min-width: 992px) {
+    .ms-application-right {
+        width: calc(100% - 500px);
+    }
+}
+.ms-application-right span{
+    position: relative;
+}
+.ms-application-right span img{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    height: unset;
+}

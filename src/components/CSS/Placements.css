@@ -1,0 +1,408 @@
+@media (min-width: 992px) {
+    .placements {
+        margin-top: 3rem;
+    }
+}
+.ms-section-pl {
+    padding: 40px 0;
+    overflow: hidden;
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+    --herobg-section-h: 44.375rem;
+    background: linear-gradient(180deg, #00262b 65%, #fff 45%);
+}
+@media (min-width: 768px) {
+    .ms-section-pl {
+        padding: 70px 0;
+    }
+}
+@media (min-width: 992px) {
+    .ms-section-pl {
+        --curve-radius: 262px;
+    }
+}
+.container-pl{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-pl{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-pl{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-pl{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-pl{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container-pl{
+        max-width: 1320px;
+    }
+}
+.row-pl{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.row-pl>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+.col-pl {
+    flex: 1 0;
+    text-align: center;
+}
+.ms-section-title-pl{
+    color: rgba(248,248,250,1);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    padding-bottom: 0;
+}
+@media (min-width: 768px) {
+    .ms-section-title-pl {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-section-title-pl {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+.ap{
+    color: #5fb858;
+    font-weight: 700;
+}
+.bp{
+    font-weight: 100;
+}
+.mt-pl{
+    margin-top: 1.5rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s ease;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+.ms-button-primary-pl {
+    height: 50px;
+    border: 0;
+    padding: 5px 5px 5px 21px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+}
+.ms-button-primary-pl-name{
+    margin-right: 1rem;
+    padding-right: 1.75rem;
+    text-transform: capitalize;
+    color: rgba(255,255,255,1);
+    font-weight: 700;
+}
+.ms-button-primary-pl-arrow {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #5fb858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ms-placements-record{
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.ms-placements-count{
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .ms-placements-count {
+        padding: 1.75rem 3.5rem;
+    }
+}
+.--month {
+    background-color: #e8f5f7;
+    z-index: 2;
+}
+.--overall{
+    background-color: #e5ccfd;
+    margin-left: 10px;
+}
+@media (min-width: 768px){
+    .--overall{
+        margin-left: 80px;
+    }
+}
+.--month:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 35px;
+    background-color: #fff;
+    left: -20px;
+    top: 45%;
+}
+@media (min-width: 768px) {
+    .--month:before {
+        height: 20px;
+        width: 40px;
+    }
+}
+.--month:after {
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 100px;
+    border-top-left-radius: 34px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    left: -56px;
+    top: 48%;
+    z-index: -1;
+}
+@media (min-width: 768px) {
+    .--month:after {
+        content: "";
+        border-top-left-radius: 50px;
+        left: -100px;
+        top: 50%;
+    }
+}
+.--overall:before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 35px;
+    background-color: #fff;
+    right: -20px;
+    top: 45%;
+}
+@media (min-width: 768px) {
+    .--overall:before {
+        height: 20px;
+        width: 40px;
+    }
+}
+.--overall:after {
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 62px;
+    border-top-right-radius: 34px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    right: -57px;
+    top: 49%;
+}
+@media (min-width: 768px) {
+    .--overall:after {
+        content: "";
+        width: 100px;
+        border-top-right-radius: 50px;
+        right: -100px;
+        top: 50%;
+    }
+}
+.ms-placements-count-value{
+    font-size: 2rem;
+    text-align: center;
+    color: #00262b;
+    font-weight: 700;
+    font-family: "Be Vietnam Pro";
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px){
+    .ms-placements-count-value{
+        font-size: 70px;
+    }
+}
+.ms-placements-count-title{
+    font-size: 1rem;
+    color: #00262b;
+    font-family: "Be Vietnam Pro", sans-serif;
+    text-align: left;
+}
+@media( min-width: 768px){
+    .ms-placements-count-title{
+        font-size: 1.25rem;
+        margin-top: -1rem;
+    }
+}
+.w-100-pl{
+    width: 100vw;
+}
+.ms-placements-card-pl{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px hsla(207, 9%, 58%, .157);
+    z-index: 4;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.ms-placements-card-pl-top{
+    display: flex;
+    justify-content: space-between;
+}
+.ms-placements-card-pl-author{
+    display: flex;
+    align-items: center;
+}
+.ms-placements-card-pl-author-avatar {
+    height: 85px;
+    width: 85px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.ms-3-pl{
+    margin-left: 1rem;
+}
+.ms-placements-card-pl-author-name{
+    font-size: 1.25rem;
+    line-height: 26px;
+    color: #090909;
+    font-weight: 600;
+    font-family: "Be Vietnam Pro",sans-serif;
+    text-align: left;
+}
+.pl-dflex{
+    display: flex;
+    align-items: center;
+}
+.ms-placements-brand-wrap{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+.img-fluid-pl{
+    max-width: 100%;
+    height: auto;
+}
+.ms-placements-card-pl-author-course{
+    margin-top: 0.5rem;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#090909;
+}
+@media (min-width: 768px) {
+    .ms-placements-card-pl-author-course{
+        font-size: 1rem;
+    }
+}
+.ms-placements-card-pl-video{
+    position: relative;
+}
+.ms-nPlayButton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background: #5fb858;
+    cursor: pointer;
+}
+.ms-nPlayButton__playIcon{
+    position: relative;
+    left: 3px;
+    top: 0;
+}
+.ms-nPlayButton:after, .ms-nPlayButton:before {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: 0;
+    bottom: 0;
+    content: "";
+    height: 80%;
+    width: 80%;
+    border: 8px solid #5eb858;
+    border-radius: 100%;
+    animation-name: ripplen;
+    animation-duration: 3s;
+    z-index: -1;
+}
+.ms-nPlayButton:before {
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.65,0,.34,1);
+}
+.ms-nPlayButton:after {
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.65,0,.34,1);
+}
+.ms-placements-card-pl-testimonial{
+    opacity: 0.8;
+    margin-top: 1.5rem;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 24px;
+    color:#183e43;
+}
+@media (min-width: 1200px) {
+    .ms-placements-card-pl-testimonial {
+        font-size: 18px;
+    }
+}
+.text-pl{
+    text-align: right;
+    margin-top: 1.75rem;
+    font-size: 0.75rem;
+    font-family: "Nunito", sans-serif;
+    color: rgba(33,37,41,1);
+    opacity: 0.4;
+}

@@ -1,0 +1,203 @@
+.ms-university{
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0;
+    --design-bg: #e5e9ec;
+    --curve-radius: 72px;
+    background-color: #f5f7f7;
+    --herobg-section-h: 44.375rem;
+}
+@media (min-width: 768px) {
+    .ms-university {
+        padding: 70px 0;
+    }
+}
+@media (min-width: 992px) {
+    .ms-university {
+        --curve-radius: 262px;
+    }
+}
+.ms-universities__m{
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.container-un{
+    z-index: 20;
+    position: relative;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-un{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container-un{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container-un{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container-un{
+        max-width: 1140px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+@media (min-width: 1400px) {
+    .container-un{
+        max-width: 1320px;
+    }
+}
+.row-un{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.just{
+    justify-content: center;
+}
+.row-un>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+    .col-un {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .col-un {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+}
+@media (min-width: 992px) {
+    .col-un {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+.ms-section-title-un {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+@media (min-width: 768px) {
+    .ms-section-title-un {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    .ms-section-title-un {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}
+.font-bold-acad{
+    font-weight: 700;
+}
+.mb-5-text-center{
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+.ms-button__primary-un {
+    height: 50px;
+    border: 0;
+    padding: 5px 5px 5px 21px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ms-button__primary-un-name{
+    margin-right: 1rem;
+    padding-right: 1.75rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 22px;
+}
+.ms-button__primary-un-arrow{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #5fb858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mu-5{
+    margin-top: 1.75rem;
+}
+.sub-col-un{
+    flex: 1 0;
+}
+.ms-university-slider{
+    width: 100%;
+}
+.text-ms-un{
+    text-align: center;
+    position: relative;
+}
+.ms-universities__logo{
+    filter: grayscale(100%);
+    transition: cubic-bezier(.6,.04,.98,.335);
+    height: 75px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    position: relative;
+    height: unset;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+.ms-universities__logo:hover{
+    filter:grayscale(0);
+}
+.text-logo{
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+    font-family: "Nunito", sans-serif;
+    color:rgba(33,37,41,1);
+    text-align: right;
+    margin-top: 1.75rem;
+    opacity: 0.4;
+}
